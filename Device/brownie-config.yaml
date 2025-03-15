@@ -1,0 +1,6 @@
+dotenv: .env
+
+keys:
+  private_key_password: ${PRIVATE_KEY_PASSWORD}
+
+default_timeout: 10

@@ -1,0 +1,14 @@
+dotenv: .env
+
+keys:
+  private_key_password: ${PRIVATE_KEY_PASSWORD}
+  private_key_00: ${PRIVATE_KEY_}
+  admin_private_key: ${ADMIN_PRIVATE_KEY}
+
+networks:
+  default: blockchain-01
+
+blockchain_level: 1
+trigger_threshold: 5000
+triggering_conditions: 100
+default_timeout: 10
